@@ -1,5 +1,23 @@
 <html>
-
+<head>
+	<title>Sudoku solver</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.right {
+			border-right: thick double black;
+		}
+		.bottom {
+			border-style: solid;
+    		border-bottom: thick dotted #ff0000;
+		}
+		tr.border_bottom td {
+		  border-bottom:1pt solid black;
+		}
+	</style>
+</head>
 <body>
 	<div id="sudoku">
 		<table id="table">
@@ -28,8 +46,13 @@
 
 	for (var i = 0; i < 9; i++) {
 		$('#table').append("<tr id="+i+"> </tr>")
-		for(var j = 0; j<9; j++){
+		if((i+1)%3 == 0){
+			$('#'+i).addClass('border_bottom')
+		}
+		for(var j = 0; j < 9; j++){
 			$('#'+i).append("<td><input id="+i+''+j+" class='element' type='text' style='width:20px'></td>")
+			if((j+1)%3 == 0)
+				$('#'+i).append("<div >|</div>")
 		}
 	}
 
