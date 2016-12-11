@@ -1,0 +1,346 @@
+<html>
+
+<body>
+	<div id="sudoku">
+		<table>
+		  <tr>
+		    <td><input id="00" class="element" type="text" style="width:20px"></td>
+		    <td><input id="01" class="element" type="text" style="width:20px"></td>
+		    <td><input id="02" class="element" type="text" style="width:20px"></td>
+		    <td><input id="03" class="element" type="text" style="width:20px"></td>
+		    <td><input id="04" class="element" type="text" style="width:20px"></td>
+		    <td><input id="05" class="element" type="text" style="width:20px"></td>
+		    <td><input id="06" class="element" type="text" style="width:20px"></td>
+		    <td><input id="07" class="element" type="text" style="width:20px"></td>
+		    <td><input id="08" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="10" class="element" type="text" style="width:20px"></td>
+		    <td><input id="11" class="element" type="text" style="width:20px"></td>
+		    <td><input id="12" class="element" type="text" style="width:20px"></td>
+		    <td><input id="13" class="element" type="text" style="width:20px"></td>
+		    <td><input id="14" class="element" type="text" style="width:20px"></td>
+		    <td><input id="15" class="element" type="text" style="width:20px"></td>
+		    <td><input id="16" class="element" type="text" style="width:20px"></td>
+		    <td><input id="17" class="element" type="text" style="width:20px"></td>
+		    <td><input id="18" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="20" class="element" type="text" style="width:20px"></td>
+		    <td><input id="21" class="element" type="text" style="width:20px"></td>
+		    <td><input id="22" class="element" type="text" style="width:20px"></td>
+		    <td><input id="23" class="element" type="text" style="width:20px"></td>
+		    <td><input id="24" class="element" type="text" style="width:20px"></td>
+		    <td><input id="25" class="element" type="text" style="width:20px"></td>
+		    <td><input id="26" class="element" type="text" style="width:20px"></td>
+		    <td><input id="27" class="element" type="text" style="width:20px"></td>
+		    <td><input id="28" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="30" class="element" type="text" style="width:20px"></td>
+		    <td><input id="31" class="element" type="text" style="width:20px"></td>
+		    <td><input id="32" class="element" type="text" style="width:20px"></td>
+		    <td><input id="33" class="element" type="text" style="width:20px"></td>
+		    <td><input id="34" class="element" type="text" style="width:20px"></td>
+		    <td><input id="35" class="element" type="text" style="width:20px"></td>
+		    <td><input id="36" class="element" type="text" style="width:20px"></td>
+		    <td><input id="37" class="element" type="text" style="width:20px"></td>
+		    <td><input id="38" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="40" class="element" type="text" style="width:20px"></td>
+		    <td><input id="41" class="element" type="text" style="width:20px"></td>
+		    <td><input id="42" class="element" type="text" style="width:20px"></td>
+		    <td><input id="43" class="element" type="text" style="width:20px"></td>
+		    <td><input id="44" class="element" type="text" style="width:20px"></td>
+		    <td><input id="45" class="element" type="text" style="width:20px"></td>
+		    <td><input id="46" class="element" type="text" style="width:20px"></td>
+		    <td><input id="47" class="element" type="text" style="width:20px"></td>
+		    <td><input id="48" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="50" class="element" type="text" style="width:20px"></td>
+		    <td><input id="51" class="element" type="text" style="width:20px"></td>
+		    <td><input id="52" class="element" type="text" style="width:20px"></td>
+		    <td><input id="53" class="element" type="text" style="width:20px"></td>
+		    <td><input id="54" class="element" type="text" style="width:20px"></td>
+		    <td><input id="55" class="element" type="text" style="width:20px"></td>
+		    <td><input id="56" class="element" type="text" style="width:20px"></td>
+		    <td><input id="57" class="element" type="text" style="width:20px"></td>
+		    <td><input id="58" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="60" class="element" type="text" style="width:20px"></td>
+		    <td><input id="61" class="element" type="text" style="width:20px"></td>
+		    <td><input id="62" class="element" type="text" style="width:20px"></td>
+		    <td><input id="63" class="element" type="text" style="width:20px"></td>
+		    <td><input id="64" class="element" type="text" style="width:20px"></td>
+		    <td><input id="65" class="element" type="text" style="width:20px"></td>
+		    <td><input id="66" class="element" type="text" style="width:20px"></td>
+		    <td><input id="67" class="element" type="text" style="width:20px"></td>
+		    <td><input id="68" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="70" class="element" type="text" style="width:20px"></td>
+		    <td><input id="71" class="element" type="text" style="width:20px"></td>
+		    <td><input id="72" class="element" type="text" style="width:20px"></td>
+		    <td><input id="73" class="element" type="text" style="width:20px"></td>
+		    <td><input id="74" class="element" type="text" style="width:20px"></td>
+		    <td><input id="75" class="element" type="text" style="width:20px"></td>
+		    <td><input id="76" class="element" type="text" style="width:20px"></td>
+		    <td><input id="77" class="element" type="text" style="width:20px"></td>
+		    <td><input id="78" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  <tr>
+		    <td><input id="80" class="element" type="text" style="width:20px"></td>
+		    <td><input id="81" class="element" type="text" style="width:20px"></td>
+		    <td><input id="82" class="element" type="text" style="width:20px"></td>
+		    <td><input id="83" class="element" type="text" style="width:20px"></td>
+		    <td><input id="84" class="element" type="text" style="width:20px"></td>
+		    <td><input id="85" class="element" type="text" style="width:20px"></td>
+		    <td><input id="86" class="element" type="text" style="width:20px"></td>
+		    <td><input id="87" class="element" type="text" style="width:20px"></td>
+		    <td><input id="88" class="element" type="text" style="width:20px"></td>
+		  </tr>
+		  
+
+		</table>
+
+	</div>
+	<button id="answer" onclick="answer()">ANSWER</button>
+	<button onclick="clear()">CLEAR</button>
+
+</body>
+
+<script>
+var ip = [
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0],
+	[0,0,0,0,0,0,0,0,0]
+];
+
+
+// document.getElementById('00').value = 1
+// document.getElementById('01').value = 9
+// document.getElementById('02').value = 6
+// document.getElementById('07').value = 4
+
+// document.getElementById('14').value = 6
+// document.getElementById('15').value = 9
+// document.getElementById('17').value = 1
+// document.getElementById('18').value = 8
+
+// document.getElementById('21').value = 4
+// document.getElementById('24').value = 7
+// document.getElementById('25').value = 1
+// document.getElementById('26').value = 2
+// document.getElementById('27').value = 6
+
+// document.getElementById('33').value = 3
+// document.getElementById('34').value = 5
+// document.getElementById('36').value = 1
+// document.getElementById('37').value = 9
+
+
+// document.getElementById('40').value = 7
+// document.getElementById('41').value = 1
+// document.getElementById('42').value = 9
+// document.getElementById('44').value = 4
+
+// document.getElementById('52').value = 5
+// document.getElementById('54').value = 9
+// document.getElementById('55').value = 8
+// document.getElementById('56').value = 7
+// document.getElementById('57').value = 2
+
+// document.getElementById('60').value = 2
+// document.getElementById('68').value = 1
+
+
+// document.getElementById('71').value = 5
+// document.getElementById('72').value = 3
+// document.getElementById('74').value = 1
+// document.getElementById('75').value = 6
+// document.getElementById('76').value = 4
+// document.getElementById('77').value = 8
+
+// document.getElementById('80').value = 4
+// document.getElementById('83').value = 9
+
+
+
+
+
+
+
+// var ip = [
+// 	[1,9,6,0,0,0,0,4,0],
+// 	[0,0,0,0,6,9,0,1,8],
+// 	[0,4,0,0,7,1,2,6,0],
+// 	[0,0,0,3,5,0,1,9,0],
+// 	[7,1,9,0,4,0,0,0,0],
+// 	[0,0,5,0,9,8,7,2,0],
+// 	[2,0,0,0,0,0,0,0,1],
+// 	[0,5,3,0,1,6,4,8,0],
+// 	[4,0,0,9,0,0,0,0,0]
+// ];
+
+
+function answer(){
+
+	var a = document.getElementsByClassName('element');
+
+	for (var i=0, max=a.length; i < max; i++) {
+	     if(a[i].value)
+	     	ip[a[i].id[0]][a[i].id[1]] = parseInt(a[i].value)
+	}
+
+	console.log('------------Input-------------')
+	print_sudoku();
+
+	var opts = {}
+	var loop = 0;
+
+	do{
+		ex = []
+		for (var i = 0; i < 9; i++) {
+			if(i%3 == 0)
+				ex=[]
+			for (var j = 0; j < 9; j++){
+				if(j<3)
+					p=1
+				else if(j>2&&j<6)
+					p=2
+				else
+					p=3
+				if(j%3==0 && i%3==0){
+					ex[p] = check_inner_square(i,j)
+				}
+					
+				if( ip[i][j] == 0){
+					check_lines(i,j,ex[p])
+				}
+			}
+		}
+		loop++;
+	}while(loop<3);
+
+	res = test();
+	if(res){
+		console.log('random test passed')
+		console.log('------------Answer-------------')
+	}else{
+		console.log('random test failed')
+		console.log(ip)
+	}
+		print_sudoku();
+
+}
+
+
+
+
+function print_sudoku(){
+	
+	for (var i = 0; i < 9; i++) {
+		var temp = '| ';
+		for (var j = 0; j < 9; j++){
+			if(ip[i][j]){
+				document.getElementById(i+''+j).value=ip[i][j]; temp += ip[i][j] + ' | ';
+			}
+			else{
+				temp += '  | ';
+			}
+		}
+		console.log(temp);
+	}
+
+}
+
+function check_inner_square(x,y){
+	var vos = [1,2,3,4,5,6,7,8,9];
+	for(var m=x; m<x+3; m++){
+		for(var n=y; n<y+3; n++){
+			if(ip[m][n] != 0){
+				vos = vos.filter(function(val){
+					return val != ip[m][n]
+				})
+			}
+		}
+	}
+	if(vos.length == 1){
+		for(var m=x; m<x+3; m++){
+			for(var n=y; n<y+3; n++){
+				if(ip[m][n] == 0){
+					ip[m][n] = vos[0];
+				}
+			}
+		}
+	}else if(vos.length>1){
+		return vos
+	}
+}
+
+
+function check_lines(x,y,exclude){
+	var pos = [1,2,3,4,5,6,7,8,9];
+	if(exclude != undefined)
+		pos = exclude
+	for (var m = 0; m<9; m++){
+		if (ip[x][m] != 0){
+			pos = pos.filter(function(val){
+				return val != ip[x][m]
+			})
+		}
+	}
+	for (var m = 0; m<9; m++){
+		if (ip[m][y] != 0){
+			pos = pos.filter(function(val){
+				return val != ip[m][y]
+			})
+		}
+	}
+
+	if(pos.length == 1)
+		ip[x][y] = pos[0];
+	else
+		return pos
+}
+
+function test(){
+	var pass = true;
+	
+	for(var i=1; i<9; i++){
+		if(ip[0][0]==ip[0][i] || ip[0][i]==0){
+			pass=false;
+			break;
+		}
+		if(ip[4][0]==ip[4][i] || ip[4][i]==0){
+			pass=false;
+			break;
+		}
+		if(ip[7][0]==ip[7][i] || ip[7][i]==0){
+			pass=false;
+			break;
+		}
+	}
+
+	return pass;
+}
+
+function clear(){
+	var a = document.getElementsByClassName('element');
+	for (var i=0, max=a.length; i < max; i++) {
+		a[i].value = ' ';
+	}
+}
+
+
+</script>
+</html>
